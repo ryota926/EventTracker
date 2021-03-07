@@ -3,8 +3,13 @@ import bodyParser from 'body-parser' //enable post request
 import mongoose from 'mongoose' //create models for our post
 import cors from 'cors' //enable cross origin request
 
+import postRoutes from './routes/posts.js'
+
 
 const app = express() //initialize app
+
+app.use('/posts', postRoutes)
+
 app.use(bodyParser.json({limit: "30mb", extended: true}))
 app.use(bodyParser.urlencoded({limit: "30mb", extended: true}))
 app.use(cors())
