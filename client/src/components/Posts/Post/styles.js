@@ -30,9 +30,16 @@ export default makeStyles({
   overlay2: {
     position: 'absolute',
     top: '20px',
-    right: '20px',
+    right: '5px',
     color: 'white',
   },
+  posted: {
+    position: 'absolute',
+    top: '160px',
+    right: '5px',
+    color: 'white',
+  },
+
   grid: {
     display: 'flex',
   },

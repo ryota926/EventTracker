@@ -10,7 +10,9 @@ export default makeStyles((theme) => ({
     alignItems: 'center',
   },
   heading: {
-    color: 'rgba(0,183,255, 1)',
+    color: 'rgba(34,139,34, 1)',
+    fontFamily: 'BlinkMacSystemFont',
+
   },
   image: {
     marginLeft: '15px',
