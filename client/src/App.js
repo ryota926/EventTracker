@@ -5,7 +5,6 @@ import {useDispatch} from 'react-redux'
 import Posts from './components/Posts/Posts'
 import Form from './components/Form/Form'
 import {getPosts} from './actions/posts'
-
 import HighLights from './images/highlightLogo.png'
 import useStyles from './styles'
 
