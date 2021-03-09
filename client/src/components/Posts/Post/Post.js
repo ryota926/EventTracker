@@ -40,7 +40,8 @@ const Post = ({post, setCurrentId}) => {
                     &nbsp; Like &nbsp;
                     {post.likeCount}
                 </Button>
-                <Button size = "small" color = "primary" onClick = {() => dispatch(deletePost(post._id)) }>
+                
+                <Button size = "small" color = "primary" onClick = {() => {/*FOR DELETE FUNCTION dispatch(deletePost(post._id)*/} }> 
                     <DeleteIcon fontSize = "small"/>
                     &nbsp; Delete 
                 </Button>

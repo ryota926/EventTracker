@@ -1,5 +1,5 @@
 import axios from 'axios' //use to make API calls
-const url = 'http://localhost:5000/posts'
+const url = 'https://highlights-mern-project.herokuapp.com/posts'
 
 export const fetchPosts = () => axios.get(url)
 

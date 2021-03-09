@@ -16,6 +16,10 @@ app.use(cors())
 
 app.use('/posts', postRoutes)
 
+app.get('/',(req, res) => {
+    res.send('This is Highlights API-made by Ryota Suzuki')
+})
+
 const PORT = process.env.PORT || 5000
 
 mongoose.connect(process.env.CONNECTION_URL, {useNewUrlParser: true, useUnifiedTopology: true})
